@@ -4,6 +4,8 @@ An LLM-maintained system for **execution state**, the half of a working life tha
 
 This is not a second brain. It is the layer that bolts onto one.
 
+**Want to build it fast?** Clone this repo, point Claude at the folder, and say *"build me an execution brain."* Claude reads `BUILD-WITH-CLAUDE.md` and sets it up with you, step by step. The rest of this README is the reference if you would rather build by hand.
+
 ## What this is
 
 In April 2026, Andrej Karpathy published a spec for an LLM-maintained personal wiki: have the model build and maintain a navigable knowledge base instead of re-reading raw documents at query time. The idea spread fast, and it is good. It answers the question *"what do I know about X."*
@@ -53,6 +55,7 @@ Any store that gives you structured, sortable, queryable status with an append-o
 ```
 execution-layer-brain/
 ├── README.md                      you are here
+├── BUILD-WITH-CLAUDE.md           agentic build script (point Claude here)
 ├── asana/
 │   ├── project-structure.md       sections, custom fields, lifecycle
 │   ├── task-template.md           the per-workstream status format
